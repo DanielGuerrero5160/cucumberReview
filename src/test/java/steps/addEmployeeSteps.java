@@ -52,7 +52,7 @@ doClick(addEmp.addEmpBtn);
             sendText(addEmp.firstNameTextBox,fName);
             sendText(addEmp.middleNameTextBox,mName);
             sendText(addEmp.lastNameTextBox,lName);
-Thread.sleep(5000);
+
             doClick(addEmp.saveBtn);
             doClick(addEmp.addEmployeeBtn);
         }
